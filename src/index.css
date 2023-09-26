@@ -8,11 +8,16 @@ body {
   background-image: url(movie.jpg);
   background-attachment: fixed;
   
-  
 }
 
 .mainb{
   height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0, 0.6)!important;
+}
+
+.playhome{
+  height: 100vh;
   width: 100%;
   background-color: rgba(0,0,0, 0.6)!important;
 }
@@ -69,8 +74,9 @@ input:focus {
   color:white !important;
   /* text-shadow: 3px 3px 2px rgb(0, 107, 128); */
   border-radius: 10px;
-  padding:5px 0px!important;
+  padding:7px 0px!important;
 }
+
 .Heading{
   color: white;
   text-shadow: 3px 5px 1px rgb(0, 107, 128);
@@ -84,14 +90,56 @@ input:focus {
 }
 
 .fmain{
-  height: 100vh;
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 90vh;
+  
+}
+
+.fbody{
+  height: 100vh;
+  width: 100%;
+  background-color: #000;
 }
 
 .signup{
-  font-size: 24px;
-  color: #0a6ef9;
+  font-size:30px;
+  color:white;
+}
+
+.form-control{
+  width:300px!important;
+  color: white!important;
+}
+
+.form-control::placeholder{
+  color: white!important;
+}
+
+
+/* .form{
+  width:400px!important;
+} */
+
+.einp{
+  background-color: #333!important;
+}
+
+.logclick:hover{
+  background-color: black;
+}
+
+.playclick{
+  background-color: rgb(125, 127, 129);
+
+}
+
+.sclick{
+  width: 100%!important;
+  background-color: #ff0000;
+  padding: 10px 0px;
+  border: none;
+  border-radius: 10px;
+  color: white;
 }

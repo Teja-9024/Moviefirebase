@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-// import PlayList from './PlayList';
+import PlayList from './PlayList';
 // import Descripton from './Descripton';
 import Logins from './Login';
 
@@ -20,12 +20,12 @@ const routers = createBrowserRouter([
   },
   {
     path:'Playlist',
-    element:<App/>
+    element:<PlayList/>
   },
-  // {
-  //   path:'description',
-  //   element:<Descripton/>
-  // }
+  {
+    path:'Home',
+    element:<App/>
+  }
 ])
 root.render(
   <React.StrictMode>

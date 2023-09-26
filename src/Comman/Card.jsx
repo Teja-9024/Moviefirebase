@@ -11,7 +11,7 @@ function BasicExample({Data}) {
     let SendData=(e)=>{
       let idData = e
      
-      console.log(idData)
+      // console.log(idData)
       let GetData = JSON.parse(localStorage.getItem("userdetail")) ?? [] ;
 
       if(GetData.some((items)=> items.id===idData.id)){

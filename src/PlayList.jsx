@@ -4,10 +4,7 @@ import { Link } from 'react-router-dom';
 import Card from 'react-bootstrap/Card';
 import { ToastContainer, toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
-import OffcanvasExample from './Comman/Header';
-
-
-
+import { OffcanvasExample2 } from './Comman/Header';
 
 
 const PlayList =  () => {
@@ -35,10 +32,10 @@ const PlayList =  () => {
       getDAta()
    }
 
-   let showMore=(values)=>{
+  //  let showMore=(values)=>{
 
 
-   }
+  //  }
    
   
 
@@ -48,8 +45,9 @@ const PlayList =  () => {
 
   return (
 
-    <>
-     <OffcanvasExample/>
+    <div className='playhome'>
+    
+    <OffcanvasExample2/>
   
     <div className='container'>
       <div className='row'>
@@ -89,7 +87,7 @@ const PlayList =  () => {
          </div>
          <ToastContainer position='top-center'  autoClose={1000}    draggable />
     </div>
-    </>
+    </div>
   )
 }
 

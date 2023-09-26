@@ -2,8 +2,8 @@ import axios from "axios";
 import BasicExample from "./Comman/Card";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import OffcanvasExample from "./Comman/Header";
 import Pagination from 'react-bootstrap/Pagination';
+import { OffcanvasExample } from "./Comman/Header";
 
 
 function App() {
@@ -78,7 +78,7 @@ function App() {
 
   return (
     <div className="mainb">
-      <OffcanvasExample/> 
+      <OffcanvasExample/>
       <div className=" py-2 ">
         
         
